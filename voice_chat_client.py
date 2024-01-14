@@ -233,7 +233,7 @@ class TextChatWindow(QtWidgets.QWidget):
 class HomeWindow(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("FeynPrep")
+        self.setWindowTitle("SynConnect")
         self.setGeometry(100, 100, 800, 600)
 
         # Container for the home page content

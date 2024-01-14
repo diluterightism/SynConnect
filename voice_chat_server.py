@@ -22,7 +22,7 @@ class VoiceChatServer(QtWidgets.QWidget):
         self.streams = []
         self.text_connections = []
         self.text_threads = []
-        self.setWindowTitle("FeynPrep")
+        self.setWindowTitle("SynConnect")
         self.start_button = QtWidgets.QPushButton("Start Connecting")
         self.stop_button = QtWidgets.QPushButton("End Connection")
         self.stop_button.setEnabled(False)
